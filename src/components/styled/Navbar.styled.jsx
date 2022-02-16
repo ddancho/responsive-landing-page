@@ -100,6 +100,7 @@ export const Login = styled.div`
 
 export const NavSmallContainer = styled.div`
   display: none;
+  position: relative;
 
   @media (max-width: 425px) {
     display: flex;
@@ -122,6 +123,7 @@ export const NavSmallOverlay = styled.div`
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    z-index: 999;
 
     svg {
       position: absolute;

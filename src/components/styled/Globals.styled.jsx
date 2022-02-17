@@ -13,10 +13,6 @@ a {
     text-decoration: none;
     color: unset;
 }
-
-::-webkit-scrollbar { 
-    display: none;  /* Safari and Chrome */
-}
 `;
 
 export default GlobalStyles;

@@ -7,6 +7,7 @@ import {
   ArrowLeft,
   ArrowRight,
 } from "./styled/Gallery.styled";
+import { Title } from "./styled/Title.styled";
 import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
 import images from "../assets/images";
 
@@ -23,6 +24,9 @@ function Gallery() {
 
   return (
     <ContainerOverlay>
+      <Title top={60}>
+        <p>Gallery</p>
+      </Title>
       <Container id='container'>
         <Slider>
           {images.galery.map((image, index) => (

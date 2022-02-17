@@ -13,7 +13,6 @@ export const ContainerOverlay = styled.div`
   background-image: url(${images.galleryBg});
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
 `;
 
 export const Container = styled.div`
@@ -25,6 +24,10 @@ export const Container = styled.div`
   overflow-x: scroll;
   -ms-overflow-style: none; /* Internet Explorer 10+ */
   scrollbar-width: none; /* Firefox */
+
+  &::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
 `;
 
 export const Slider = styled.div`

@@ -8,7 +8,7 @@ const FontStyle = css`
 `;
 
 export const Nav = styled.nav`
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;

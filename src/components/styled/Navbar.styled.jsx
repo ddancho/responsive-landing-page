@@ -40,7 +40,7 @@ export const List = styled.ul`
   ${({ small }) =>
     !small &&
     `
-    @media (min-width:540px) {
+    @media (min-width:541px) {
     display: flex;
   }
   `}
@@ -48,7 +48,7 @@ export const List = styled.ul`
   ${({ small }) =>
     small &&
     `
-    @media (max-width:425px) {
+    @media (max-width:540px) {
     display: flex;
     flex-direction: column;
   }
@@ -102,7 +102,7 @@ export const NavSmallContainer = styled.div`
   display: none;
   position: relative;
 
-  @media (max-width: 425px) {
+  @media (max-width: 540px) {
     display: flex;
   }
 `;
@@ -110,7 +110,7 @@ export const NavSmallContainer = styled.div`
 export const NavSmallOverlay = styled.div`
   display: none;
 
-  @media (max-width: 425px) {
+  @media (max-width: 540px) {
     display: flex;
     position: fixed;
     justify-content: center;

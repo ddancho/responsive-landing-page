@@ -26,6 +26,18 @@ export const Wrapper = styled.div`
   padding: 1rem;
   margin: 9rem 0;
 
+  @media (max-width: 1280px) {
+    width: 80%;
+  }
+
+  @media (max-width: 920px) {
+    width: 80%;
+  }
+
+  @media (max-width: 820px) {
+    width: 70%;
+  }
+
   @media (max-width: 425px) {
     flex-direction: column;
     flex-wrap: nowrap;

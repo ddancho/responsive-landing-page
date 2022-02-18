@@ -18,12 +18,14 @@ import logo from "./logo_960_720.png";
 import navSmallBg from "./nav_small_bg_960_720.jpg";
 import galleryBg from "./gallery_bg_960_720.jpg";
 import popularBg from "./popular_bg_960_720.png";
+import packagesBg from "./packages_bg_960_720.jpg";
 
 const images = {
   logo,
   navSmallBg,
   galleryBg,
   popularBg,
+  packagesBg,
   galery: [c01, cp01, c02, cp02, c03, cp03, c04, cp04, c05, cp05],
   popular: [c03, c04, c05, c06, c07, c08, c02, c01, cp05, cp06, cp07, cp08],
 };

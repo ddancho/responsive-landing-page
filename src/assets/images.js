@@ -19,6 +19,8 @@ import navSmallBg from "./nav_small_bg_960_720.jpg";
 import galleryBg from "./gallery_bg_960_720.jpg";
 import popularBg from "./popular_bg_960_720.png";
 import packagesBg from "./packages_bg_960_720.jpg";
+import contactBg from "./contact_bg_960_720.jpg";
+import wrapperBg from "./wrapper_bg_960_720.png";
 
 const images = {
   logo,
@@ -26,6 +28,8 @@ const images = {
   galleryBg,
   popularBg,
   packagesBg,
+  contactBg,
+  wrapperBg,
   galery: [c01, cp01, c02, cp02, c03, cp03, c04, cp04, c05, cp05],
   popular: [c03, c04, c05, c06, c07, c08, c02, c01, cp05, cp06, cp07, cp08],
 };
